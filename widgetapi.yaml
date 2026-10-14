@@ -2,16 +2,7 @@ asyncapi: 2.5.0
 info:
   title: Verona Inferfaces Specification "Widget"
   version: '1.0.1'
-  description: |
-    This is one part of the [Verona Online Assessment Standards](https://verona-interfaces.github.io).
-    All messages are sent via the postMessage function of the html page. The widget takes the page root of its parent
-    as target (parent.window), and the application binds the function call to the iframe element of the widget.
-
-    Most important, the message body carries as first parameter the operationId of the message.
-
-    The html page MUST contain a script-tag with metadata. The syntax and structure of this data are described
-    [here](https://verona-interfaces.github.io/intro/metadata.html).
-
+  description: This is one part of the [TBA Plugin Standards](https://iqb-specifications.github.io/concepts/plugins/).
   license:
     name: CC0-1.0
     url: http://creativecommons.org/publicdomain/zero/1.0/
